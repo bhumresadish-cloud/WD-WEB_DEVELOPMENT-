@@ -1,0 +1,20 @@
+/*Descendent CS*/
+ 
+div p{
+    color: red;
+}
+
+/* child CS*/
+div>p{
+    background-color: aqua;
+}
+
+/* adjcent sibling CS*/
+div+p{
+    color: orange;
+}
+
+/*General sibling CS */
+div~p{
+    background-color: cadetblue;
+}
