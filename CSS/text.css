@@ -1,0 +1,14 @@
+/* Text prop*/
+p{
+    color: red;
+    text-indent: 500px;
+    text-decoration: underline;
+    text-decoration-color: rgb(80, 34, 2);
+    text-decoration-style: wavy;
+    text-transform: uppercase;
+
+}
+h1{
+    text-align: center;
+    text-shadow: 25px 35px 5px rgb(158, 43, 43);
+}

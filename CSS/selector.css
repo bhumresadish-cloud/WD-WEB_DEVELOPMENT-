@@ -1,0 +1,29 @@
+/* ID*/
+#p11{
+    color: blueviolet;
+}
+
+
+/* class selecter*/
+
+.h22{
+    color: green;
+}
+
+.h21{
+    color: gold;
+}
+
+.h23{
+    color: yellow;
+}
+
+/* Grouping selector*/
+#p11,.h21,.h22,.h23,p{
+    background-color: rgb(222, 135, 196);
+}
+
+/* universal selector*/
+*{
+    background: -linear-gradient(pink,purple);
+}
