@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <input type="number" placeholder="Enter number 1" id="num1"><br><br>
+         <input type="number" placeholder="Enter number 2" id="num2"><br><br>
+
+         <button type="button" onclick="addition()">Submit</button>
+    </form>
+    <script>
+        function addition(){
+            var n1=Number(document.getElementById("num1").value);
+            var n2=Number(document.getElementById("num2").value);
+
+            document.write(n1+n2);
+        }
+    </script>
+</body>
+</html>

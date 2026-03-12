@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+</head>
+<body>
+
+    <h3>Calculator</h3>
+
+    <input type="number" placeholder="Enter number 1" id="num1"><br><br>
+
+    <input type="number" placeholder="Enter number 2" id="num2"><br><br>
+
+    <select id="abc">
+        <option value="">Select option</option>
+        <option value="add">Addition</option>
+        <option value="mul">Multiplication</option>
+        <option value="div">Division</option>
+    </select><br><br>
+
+    <button type="button" onclick="cal()">Submit</button>
+
+    <p id="result"></p>
+
+    <script>
+        function cal() {
+            var a = Number(document.getElementById("num1").value);
+            var b = Number(document.getElementById("num2").value);
+            var c = document.getElementById("abc").value;
+            var res = "";
+
+            if(ch == "add"){
+                let result =n1+n2;
+                document.write("Result="+result);
+            }
+
+            if (c === "add") {
+                res = "Addition: " + a + " + " + b + " = " + (a + b);
+            } 
+            else if (c === "mul") {
+                res = "Multiplication: " + a + " * " + b + " = " + (a * b);
+            } 
+            else if (c === "div") {
+                res = "Division: " + a + " / " + b + " = " + (a / b);
+            } 
+            else {
+                res = "Please select an operation";
+            }
+
+            document.getElementById("result").innerText = res;
+        }
+    </script>
+
+</body>
+</html>
